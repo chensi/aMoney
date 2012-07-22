@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class ViewController;
+@class OneAccountViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) OneAccountViewController *viewController;
 
 @end
